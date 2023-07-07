@@ -1,0 +1,13 @@
+{
+  "name": "wsjoy",
+  "version": "0.0.1",
+  "description": "websocket joystick",
+  "author": "bobolinks",
+  "license": "MIT",
+  "main": "wsjoy.js",
+  "scripts": {
+    "pm2": "pm2 start wsjoy.js --name wsjoy -- --port=8152"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
